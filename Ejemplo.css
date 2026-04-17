@@ -1,0 +1,11 @@
+.contenedor-navegacion{
+    display; flex;
+    justify-content: space-beetween;
+    align-items; center;
+}
+@media (max-width: 768px) {
+    .contenedor-navegacion{
+        flex-direction; row;
+        justify-content; space-beetween;
+    } 
+}
